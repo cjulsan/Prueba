@@ -4,7 +4,9 @@ import React from 'react';
 function Historial(): JSX.Element {
 
     return (
-        <div></div>
-      );
-}
+        <div>
+
+        </div>
+      )
+};
 export default Historial;
