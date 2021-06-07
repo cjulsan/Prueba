@@ -1,11 +1,10 @@
 import { JsxElement } from "typescript";
 
-function Historial():JSX.Element{
+function apitime():JSX.Element{
     return(
         <div> 
-        <h3>HISTORIAL</h3>
+        <h3>En construccion</h3>
         </div>
     )
 };
-
-export default Historial;
+export default apitime;
