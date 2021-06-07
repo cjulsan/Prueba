@@ -9,9 +9,7 @@ import  {Button} from '@material-ui/core';
 
 function App():JSX.Element{
   return(
-    <Button variant="contained" color="primary">
-    Hola Mundo!
-  </Button>
+   <div></div> 
   )
 };
 
