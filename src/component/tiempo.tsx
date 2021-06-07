@@ -1,8 +1,6 @@
-//import { JsxElement } from "typescript";
+import { JsxElement } from "typescript";
 
-const initialDb = [];
-
-    function Tiempo() {
+function Tiempo():JSX.Element {
     return(
         <div> 
             <h3>ESTADO DEL TIEMPO Y NOTICIAS</h3>
