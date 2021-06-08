@@ -15,15 +15,15 @@ function App(): JSX.Element {
             </div>
             <div>
                 <form>
-                    <TextField id="Ciudad" label="Ciudad" variant="filled" color="primary"/>
+                    <TextField type ="submit" id="Ciudad" label="Ciudad" variant="filled" color="primary"/>
                 </form>
 
             </div>
             <div className="centrado">
                 <ButtonGroup disableElevation variant="contained" color="primary">
-                    <Button onClick={() => "Noticias.html"}>Consultar Noticias</Button>
-                    <Button onClick={() => "Tiempo.html"}>Consultar Tiempo</Button>
-                    <Button onClick={() => "Historial.html"}>Historial</Button>
+                    <Button type ="submit" id="Ciudad" href="Noticias.html">Consultar Noticias</Button>
+                    <Button type ="submit" id="Ciudad" href="Tiempo.html">Consultar Tiempo</Button>
+                    <Button href="Historial.html">Historial</Button>
                 </ButtonGroup>
             </div>
         </div>
