@@ -16,12 +16,9 @@ function Tiempo():JSX.Element {
 
   return (
     <div className="App">
-       
+       En construccón
     </div>
-  );
-}
-
-    
+    )   
 };
 
 export default Tiempo; 

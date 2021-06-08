@@ -15,9 +15,8 @@ function Noticias():JSX.Element{
   },[])
 
   return (
-    <div className="App">
-      
-    
+    <div className="App">      
+      En construccón
     </div>
   );
 }
