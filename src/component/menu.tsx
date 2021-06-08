@@ -1,7 +1,7 @@
-import './App.css'
-import Tiempo from './component/tiempo';
-import Historial from './component/historial';
-import Noticias from './component/noticias';
+
+import Tiempo from './tiempo';
+import Historial from './historial';
+import Noticias from './noticias';
 import { Button, ButtonGroup, TextField, BottomNavigation, BottomNavigationAction } from '@material-ui/core';
 
 function Menu(){
