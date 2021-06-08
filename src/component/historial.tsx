@@ -5,7 +5,7 @@ function Historial():JSX.Element {
 
     return (
         <div>
-         historial
+           <h3>HISTORIAL</h3>
         </div>
       )
 };
