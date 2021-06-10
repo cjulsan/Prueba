@@ -1,12 +1,10 @@
 
-import {Button} from '@material-ui/core';
 
-function Historial(){
+function Historial():JSX.Element{
 
     return (
         <div>
            <h3>HISTORIAL</h3>
-           <Button href="index.html">Consultar Noticias</Button>
         </div>
       )
 };

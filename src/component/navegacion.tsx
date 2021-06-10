@@ -1,12 +1,20 @@
-import {Button} from '@material-ui/core';
 
-function Historial(){
+import {Button, ButtonGroup} from '@material-ui/core';
 
-    return (
-        <div>
-           <h3>HISTORIAL</h3>
-           <Button href="index.html">Consultar Noticias</Button>
-        </div>
-      )
+export const Navegacion = (props:any) => {
+
+    var history= props;
+    
+    return(
+      <div>
+
+      <ButtonGroup disableElevation variant="contained" color="primary">
+      <Button onClick={() => history.push('/noticias')}>Consultar Noticias</Button>
+      <Button onClick={() => history.push('/Tiempo')}>Consultar Tiempo</Button>
+      <Button onClick={() => history.push('/Historial')}>Historial</Button>
+      </ButtonGroup>
+
+      </div>    
+        
+   )
 };
-export default Historial;
