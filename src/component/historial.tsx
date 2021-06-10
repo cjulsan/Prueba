@@ -1,8 +1,7 @@
-import { JsxElement } from "typescript";
-import React from 'react';
+
 import {Button} from '@material-ui/core';
 
-function Historial():JSX.Element {
+function Historial(){
 
     return (
         <div>
