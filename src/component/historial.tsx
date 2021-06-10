@@ -1,6 +1,6 @@
 
 
-function Historial():JSX.Element{
+function Historial(){
 
     return (
         <div>
