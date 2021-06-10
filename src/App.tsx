@@ -4,19 +4,18 @@ import Historial from './component/historial';
 import Noticias from './component/noticias';
 import Tiempo from './component/tiempo';
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+type FormElement = React.FormEvent<HTMLFormElement>;
 
-function App() {
-
-
+function App(){
+{
     <BrowserRouter>
-      <Switch>>
+      <Switch>
         <Route path="/tiempo" component={Tiempo} />
         <Route path="/noticias" component={Noticias} />
         <Route path="/historial" component={Historial} />
       </Switch>
-
     </BrowserRouter>
-
+}
   return (
     <div>
       <li><Link to="/noticias"> Consultar Noticias</Link></li>
@@ -25,7 +24,6 @@ function App() {
     </div>
   )
 };
-
-export default App();
+export default App;
 
 
