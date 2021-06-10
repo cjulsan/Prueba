@@ -14,10 +14,10 @@ function Noticias(){
    useEffect(() => {
    fetchApi()
   },[])
-  console.log(dato.name);
-  return (
-    <div className="App">      
   
+  return (
+    <div>      
+       <h3>NOTICIAS</h3>
     </div>
   );
 }
